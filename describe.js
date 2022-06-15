@@ -7,10 +7,10 @@
 
 
 // 0.
-// //EXAMPLE. We make a variable called number and set it to 1 as a number.
-// Then we increment the number variable. Number is now 2.
+// //EXAMPLE. We make a variable called number and set it to 1.
+// Then we increment the  Number is now, so it equal 2
 // We check if number is greater than or equal to 2. 2 is equal to 2, so
-// we console.log 'yes'.
+// the console.log is 'yes'.
 
 //CODE
 /*
@@ -23,9 +23,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// "Let" is assigning the varible "name" to equal 'Dane'
+// Declares a variable as string 'Dane'
 // The "if" command is saying if 'name' is equal to Mary show a log
-// of 'Hi Mary' also show log of 'How do you do?'
+// of 'Hi Mary' and log of 'How do you do?'
 //
 
 //CODE
@@ -112,9 +112,12 @@ if (number >= 2) {
 
 
 
-//4. We start with three variables -- colorOne is set to 'blue' and
-// colorTwo is set to 'red', and mix is set to true. We check if mix is true
-// -- it is, so we set colorOne and colorTwo to 'purple'
+//4.We start with three variables -- colorOne's value is set to string 'blue' and
+// colorTwo's value is set to string 'red', and mix's value is set to boolean true.
+// PROBLEM: As written, the conditional would only set colorOne's value to 'purple'
+// PROBLEM: Only colorOne is reassigned a value. Need also to reassign colorTwo
+// After fixing we check if mix is true.
+//    It is: the conditional sets colorOne and colorTwo values to 'purple'
 
 /*
 let colorOne = 'red';
