@@ -23,9 +23,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// Declares a variable as string 'Dane'
-// The "if" command is saying if 'name' is equal to Mary show a log
-// of 'Hi Mary' and log of 'How do you do?'
+// We defined a variable called name and assign it a name called Dane.
+// Then we check name if is exactly the data type and value of the name Mary. If the name data type and value
+// is true, it will then console.log's Hi Mary.  However if the name data type and value
+// is false then it will console.log How do you do?
 //
 
 //CODE
@@ -38,12 +39,14 @@ if (name === 'Mary') {
 }
 */
 
+
+
 // 2. WRITE YOUR DESCRIPTION HERE
-// let there be varible of 'secret'. Let there be a varible of 'code' equal to 123
-// If 'code' is equal to 123 then 'secret' will become equal to 'Super'
-// 'code' also become equal to 'code' times 2.
-// If 'code' greater than 250 then secret equal to 'duper'
-// also log 'Secret'
+// We define da variable called secret and also defined a variable called code and assign code a number value of 123.
+// Then we check to see if code is the type and value of number value of 123. If it is the variable secret
+// will be assigned a string 'super' and multiply operation using the variable code multiplying by two, which equals 246.
+// The last conditional checks if code is greater than 250 and if it is then it will be assign the variable secret to duper.
+// Then it will console.log the variable of secret, which in this case will be super.
 
 //CODE
 /*
@@ -59,13 +62,15 @@ if (code > 250) {
 console.log(secret)
 */
 
+
 // 3. WRITE YOUR DESCRIPTION HERE
-// create 'isStudent' to be equal to 'true'. create 'age' be equal to 34. create 'zip' to be equal to 55407
-// the If statement is saying if 'isStudent' equal to 'true' and 'zip' greater than 80000
-// log 'you're a student on the west coast'. also if  'isStudent' equal 'false' or 'age' less than 30
-// log 'what are your hobbies?'
-// create 'isStudent' equal to 'true' then log 'welcome to prime'
-// also log 'How about the weather?'
+// We define a variable called isStudent and assign it a value of true.
+// We define two variables one called age with a number value of 34 and another called zip with a number value of 55407.
+// Then we check to see if the variable isStudent exactly matches true and also if zip is greater than 80000. If it is then we
+// console.log the value 'You're a student on the West Coast!' .  If the first conditional does not match, we will goto the next conditional which will check
+// if the variable isStudent exactly matches false or ages is less than thirty, if this is true we will console log 'What are your hobbies'. If the second conditional is not valid.
+// If the variable isStudent is true, itv console.log 'Welcome to Prime'. Lastly if none of
+// these conditional checks are valid then we just console.log 'How about the weather?'
 
 //CODE
 /*
@@ -82,6 +87,8 @@ if (isStudent === true && zip > 80000 ) {
   console.log('How about the weather?')
 }
 */
+
+
 
 
 
